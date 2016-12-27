@@ -57,8 +57,8 @@
     "nodedir": "/Users/steel/.node-gyp/4.7.0",
     "copy_dev_lib": "true",
     "standalone_static_library": 1,
-    "module": "/Users/steel/WebstormProjects/backprop-neat-js/tmp2/hdf5.node/lib/binding/hdf5.node",
+    "module": "/Users/steel/WebstormProjects/hfd5bin/lib/binding/hdf5.node",
     "module_name": "hdf5",
-    "module_path": "/Users/steel/WebstormProjects/backprop-neat-js/tmp2/hdf5.node/lib/binding"
+    "module_path": "/Users/steel/WebstormProjects/hfd5bin/lib/binding"
   }
 }

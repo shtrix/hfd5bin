@@ -1,11 +1,11 @@
 {
   "name": "hdf5bin",
   "version": "0.2.2",
-  "description": "Native Abstractions for hdf5 file io",
+  "description": "HDF5 compiled for OSX",
   "main": "./index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/HDF-NI/hdf5.node.git"
+    "url": "git+https://github.com/shtrix/hfd5bin.git"
   },
   "dependencies": {
     "node-gyp": "3.4.0",
@@ -25,7 +25,7 @@
   "binary": {
     "module_name": "hdf5",
     "module_path": "./lib/binding/",
-    "host": "https://hdf5.node.s3-us-west-2.amazonaws.com",
+    "host": "https://github.com/shtrix/hfd5bin/releases/download/",
     "remote_path": "./v{version}"
   },
   "contributors": [

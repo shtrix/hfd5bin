@@ -3,12 +3,12 @@
 TOOLSET := target
 TARGET := action_after_build
 ### Generated for copy rule.
-/Users/steel/WebstormProjects/backprop-neat-js/tmp2/hdf5.node/lib/binding/hdf5.node: TOOLSET := $(TOOLSET)
-/Users/steel/WebstormProjects/backprop-neat-js/tmp2/hdf5.node/lib/binding/hdf5.node: $(builddir)/hdf5.node FORCE_DO_CMD
+/Users/steel/WebstormProjects/hfd5bin/lib/binding/hdf5.node: TOOLSET := $(TOOLSET)
+/Users/steel/WebstormProjects/hfd5bin/lib/binding/hdf5.node: $(builddir)/hdf5.node FORCE_DO_CMD
 	$(call do_cmd,copy)
 
-all_deps += /Users/steel/WebstormProjects/backprop-neat-js/tmp2/hdf5.node/lib/binding/hdf5.node
-binding_gyp_action_after_build_target_copies = /Users/steel/WebstormProjects/backprop-neat-js/tmp2/hdf5.node/lib/binding/hdf5.node
+all_deps += /Users/steel/WebstormProjects/hfd5bin/lib/binding/hdf5.node
+binding_gyp_action_after_build_target_copies = /Users/steel/WebstormProjects/hfd5bin/lib/binding/hdf5.node
 
 ### Rules for final target.
 # Build our special outputs first.

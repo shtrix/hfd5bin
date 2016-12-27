@@ -1,0 +1,1 @@
+cmd_/Users/steel/WebstormProjects/hfd5bin/lib/binding/hdf5.node := rm -rf "/Users/steel/WebstormProjects/hfd5bin/lib/binding/hdf5.node" && cp -af "Release/hdf5.node" "/Users/steel/WebstormProjects/hfd5bin/lib/binding/hdf5.node"
