@@ -1,0 +1,1 @@
+cmd_Release/h5pt.node := c++ -bundle -undefined dynamic_lookup -Wl,-search_paths_first -mmacosx-version-min=10.10 -arch x86_64 -L./Release  -o Release/h5pt.node Release/obj.target/h5pt/src/h5pt.o Release/obj.target/h5pt/src/h5_pt.o /usr/local/lib/libhdf5.dylib /usr/local/lib/libhdf5_hl.dylib

@@ -1,0 +1,1 @@
+cmd_Release/h5im.node := c++ -bundle -undefined dynamic_lookup -Wl,-search_paths_first -mmacosx-version-min=10.10 -arch x86_64 -L./Release  -o Release/h5im.node Release/obj.target/h5im/src/h5im.o /usr/local/lib/libhdf5.dylib /usr/local/lib/libhdf5_hl.dylib
