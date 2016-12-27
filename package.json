@@ -15,15 +15,18 @@
     "co-mocha": "^1.1.2",
     "mocha": "2.4.5",
     "should": "*",
-    "xml2js": "*"
+    "xml2js": "*",
+    "aws-sdk": "2.x"
   },
   "scripts": {
     "install": "node-pre-gyp install --fallback-to-build",
     "prebuild": "node-pre-gyp rebuild && ./node_modules/.bin/node-pre-gyp package",
-    "test": "mocha test"
+    "test": "mocha test",
+    "preinstall": "npm install node-pre-gyp",
+    "prepublish": "npm ls"
   },
   "binary": {
-    "module_name": "hdf5",
+    "module_name": "hdf5bin",
     "module_path": "./lib/binding/",
     "host": "https://github.com/shtrix/hfd5bin/releases/download/",
     "remote_path": "./v{version}"
@@ -35,9 +38,9 @@
   "license": "MIT",
   "keywords": [],
   "bugs": {
-    "url": "https://github.com/HDF-NI/hdf5.node/issues"
+    "url": "https://github.com/shtrix/hfd5bin/issues"
   },
-  "homepage": "https://github.com/HDF-NI/hdf5.node#readme",
+  "homepage": "https://github.com/shtrix/hfd5bin#readme",
   "bundleDependencies": [
     "node-pre-gyp"
   ],
